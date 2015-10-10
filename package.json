@@ -1,0 +1,21 @@
+{
+  "name": "svg",
+  "version": "1.0.0",
+  "description": "Collection of well formed svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarotero/svg.git"
+  },
+  "keywords": [
+    "svg",
+    "icons",
+    "logos"
+  ],
+  "author": "Oscar Otero",
+  "bugs": {
+    "url": "https://github.com/oscarotero/svg/issues"
+  },
+  "devDependencies": {
+    "stylecow": "^7.0.2"
+  }
+}

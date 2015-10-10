@@ -1,0 +1,20 @@
+.svg-nodejs {
+	--green: #7FBD42;
+	--black: #333;
+	--white: #FFF;
+
+	.is-main {
+		fill: var(--green);
+	}
+	.is-secondary {
+		fill: var(--black);
+	}
+
+	&.is-reversed {
+		background: var(--black);
+
+		.is-secondary {
+			fill: var(--white);
+		}
+	}
+}

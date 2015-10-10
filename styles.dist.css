@@ -1,0 +1,14 @@
+.svg-nodejs .is-main {
+	fill: #7FBD42;
+}
+.svg-nodejs .is-secondary {
+	fill: #333;
+}
+.svg-nodejs.is-reversed {
+	background: #333;
+}
+.svg-nodejs.is-reversed .is-secondary {
+	fill: #FFF;
+}
+
+/*# sourceMappingURL=styles.dist.map */
