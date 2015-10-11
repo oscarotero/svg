@@ -1,3 +1,5 @@
+
+/* https://nodejs.org/en/about/resources/ */
 .svg-nodejs .is-main {
 	fill: #7FBD42;
 }
@@ -8,6 +10,15 @@
 	background: #333;
 }
 .svg-nodejs.is-reversed .is-secondary {
+	fill: #FFF;
+}
+.svg-twitter .is-main {
+	fill: #55ACEE;
+}
+.svg-twitter.is-reversed {
+	background: #55ACEE;
+}
+.svg-twitter.is-reversed .is-main {
 	fill: #FFF;
 }
 

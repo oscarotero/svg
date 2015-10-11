@@ -1,0 +1,16 @@
+.svg-twitter {
+	--blue: #55ACEE;
+	--white: #FFF;
+
+	.is-main {
+		fill: var(--blue);
+	}
+
+	&.is-reversed {
+		background: var(--blue);
+
+		.is-main {
+			fill: var(--white);
+		}
+	}
+}
