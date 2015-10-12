@@ -5,6 +5,7 @@
 @import "src/linkedin/styles.css";
 @import "src/facebook/styles.css";
 @import "src/aboutme/styles.css";
+@import "src/googleplus/styles.css";
 
 svg {
 	margin: 2em;
