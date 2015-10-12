@@ -1,20 +1,21 @@
 /* https://nodejs.org/en/about/resources/ */
+
 .svg-nodejs {
 	--green: #7FBD42;
 	--black: #333;
 	--white: #FFF;
 
-	.is-main {
+	.is-color1 {
 		fill: var(--green);
 	}
-	.is-secondary {
+	.is-black {
 		fill: var(--black);
 	}
 
 	&.is-reversed {
 		background: var(--black);
 
-		.is-secondary {
+		.is-black {
 			fill: var(--white);
 		}
 	}

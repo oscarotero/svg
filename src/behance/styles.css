@@ -1,15 +1,17 @@
-.svg-twitter {
-	--blue: #55ACEE;
+/* https://www.behance.net/dev/api/brand */
+
+.svg-behance {
+	--blue: #1769FF;
 	--white: #FFF;
 
-	.is-main {
+	.is-color1 {
 		fill: var(--blue);
 	}
 
 	&.is-reversed {
 		background: var(--blue);
 
-		.is-main {
+		.is-color1 {
 			fill: var(--white);
 		}
 	}

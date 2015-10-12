@@ -1,25 +1,86 @@
 
 /* https://nodejs.org/en/about/resources/ */
-.svg-nodejs .is-main {
+.svg-nodejs .is-color1 {
 	fill: #7FBD42;
 }
-.svg-nodejs .is-secondary {
+.svg-nodejs .is-black {
 	fill: #333;
 }
 .svg-nodejs.is-reversed {
 	background: #333;
 }
-.svg-nodejs.is-reversed .is-secondary {
+.svg-nodejs.is-reversed .is-black {
 	fill: #FFF;
 }
-.svg-twitter .is-main {
+
+/* https://about.twitter.com/company/brand-assets */
+.svg-twitter .is-color1 {
 	fill: #55ACEE;
 }
 .svg-twitter.is-reversed {
 	background: #55ACEE;
 }
-.svg-twitter.is-reversed .is-main {
+.svg-twitter.is-reversed .is-color1 {
 	fill: #FFF;
+}
+
+/* https://github.com/logos */
+.svg-github .is-black {
+	fill: #221E1B;
+}
+.svg-github.is-reversed {
+	background: #221E1B;
+}
+.svg-github.is-reversed .is-black {
+	fill: #FFF;
+}
+
+/* https://www.behance.net/dev/api/brand */
+.svg-behance .is-color1 {
+	fill: #1769FF;
+}
+.svg-behance.is-reversed {
+	background: #1769FF;
+}
+.svg-behance.is-reversed .is-color1 {
+	fill: #FFF;
+}
+
+/* https://brand.linkedin.com/downloads */
+.svg-linkedin .is-color1 {
+	fill: #0077B5;
+}
+.svg-linkedin .is-white {
+	fill: #FFF;
+}
+.svg-linkedin .is-black {
+	fill: #000;
+}
+.svg-linkedin.is-reversed {
+	background: #000;
+}
+.svg-linkedin.is-reversed .is-black {
+	fill: #FFF;
+}
+
+/* https://www.facebookbrand.com/ */
+.svg-facebook .is-color1 {
+	fill: #3b5999;
+}
+.svg-facebook .is-white {
+	fill: #FFF;
+}
+.svg-facebook.is-reversed {
+	background: #3b5999;
+}
+.svg-facebook.is-reversed .is-color1 {
+	fill: #FFF;
+}
+.svg-facebook.is-reversed .is-white {
+	fill: #3b5999;
+}
+svg {
+	margin: 2em;
 }
 
 /*# sourceMappingURL=styles.dist.map */

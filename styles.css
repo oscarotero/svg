@@ -1,2 +1,10 @@
-@import "src/nodejs/nodejs.css";
-@import "src/twitter/twitter.css";
+@import "src/nodejs/styles.css";
+@import "src/twitter/styles.css";
+@import "src/github/styles.css";
+@import "src/behance/styles.css";
+@import "src/linkedin/styles.css";
+@import "src/facebook/styles.css";
+
+svg {
+	margin: 2em;
+}

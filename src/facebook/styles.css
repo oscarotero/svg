@@ -1,0 +1,25 @@
+/* https://www.facebookbrand.com/ */
+
+.svg-facebook {
+	--blue: #3b5999;
+	--white: #FFF;
+
+	.is-color1 {
+		fill: var(--blue);
+	}
+	.is-white {
+		fill: var(--white);
+	}
+
+	&.is-reversed {
+		background: var(--blue);
+
+		.is-color1 {
+			fill: var(--white);
+		}
+
+		.is-white {
+			fill: var(--blue);
+		}
+	}
+}

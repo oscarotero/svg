@@ -1,0 +1,18 @@
+/* https://about.twitter.com/company/brand-assets */
+
+.svg-twitter {
+	--blue: #55ACEE;
+	--white: #FFF;
+
+	.is-color1 {
+		fill: var(--blue);
+	}
+
+	&.is-reversed {
+		background: var(--blue);
+
+		.is-color1 {
+			fill: var(--white);
+		}
+	}
+}
