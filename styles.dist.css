@@ -93,6 +93,9 @@
 .svg-aboutme.is-reversed .is-color1 {
 	fill: #FFF;
 }
+.svg-aboutme.is-reversed .is-white {
+	fill: #044a75;
+}
 
 /* https://developers.google.com/+/branding-guidelines */
 .svg-googleplus .is-color1 {
@@ -106,6 +109,10 @@
 }
 svg {
 	margin: 2em;
+}
+svg.is-reversed {
+	padding: 1em;
+	margin: 1em;
 }
 
 /*# sourceMappingURL=styles.dist.map */

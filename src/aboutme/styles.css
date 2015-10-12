@@ -17,5 +17,8 @@
 		.is-color1 {
 			fill: var(--white);
 		}
+		.is-white {
+			fill: var(--blue);
+		}
 	}
 }

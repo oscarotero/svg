@@ -9,4 +9,9 @@
 
 svg {
 	margin: 2em;
+
+	&.is-reversed {
+		padding: 1em;
+		margin: 1em;
+	}
 }
