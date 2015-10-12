@@ -4,6 +4,7 @@
 @import "src/behance/styles.css";
 @import "src/linkedin/styles.css";
 @import "src/facebook/styles.css";
+@import "src/aboutme/styles.css";
 
 svg {
 	margin: 2em;

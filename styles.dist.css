@@ -79,6 +79,20 @@
 .svg-facebook.is-reversed .is-white {
 	fill: #3b5999;
 }
+
+/* https://about.me/assets */
+.svg-aboutme .is-color1 {
+	fill: #044a75;
+}
+.svg-aboutme .is-white {
+	fill: #FFF;
+}
+.svg-aboutme.is-reversed {
+	background: #044a75;
+}
+.svg-aboutme.is-reversed .is-color1 {
+	fill: #FFF;
+}
 svg {
 	margin: 2em;
 }
