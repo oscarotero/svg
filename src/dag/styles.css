@@ -1,0 +1,25 @@
+/* http://dag.gal */
+
+.svg-dag {
+	--black: #1D1D1B;
+	--white: #FFF;
+
+	.is-black {
+		fill: var(--black);
+	}
+	.is-white {
+		fill: var(--white);
+	}
+
+	&.is-reversed {
+		background: var(--black);
+
+		.is-black {
+			fill: var(--white);
+		}
+
+		.is-white {
+			fill: var(--black);
+		}
+	}
+}
