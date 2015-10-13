@@ -23,3 +23,20 @@ Collection of well formed svg, styled with css
 * `is-color2` Secondary color
 * `is-black` Black color (or equivalent)
 * `is-white` White color (or equivalent)
+
+## Usage
+
+With php:
+
+```html
+<styles>
+	<?= Svg::css() ?>
+</styles>
+
+<p>
+	Follow me on twitter:
+	<a href="https://twitter.com/misteroom">
+		<?= Svg::square('twitter') ?>
+	</a>
+</p>
+```

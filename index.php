@@ -1,4 +1,4 @@
-<?php include "Svg.php"; ?>
+<?php include 'Svg.php'; ?>
 
 <!DOCTYPE html>
 <html>
@@ -6,43 +6,59 @@
 		<meta charset="utf-8">
 		<title>SVG</title>
 
-		<link rel="stylesheet" type="text/css" href="styles.dist.css">
+		<style type="text/css">
+		<?= Svg::css() ?>
+
+		svg {
+			margin: 2em;
+		}
+
+		svg.is-reversed {
+			margin: 1em;
+			padding: 1em;
+		}
+		</style>
 	</head>
+
 	<body>
 		<div>
-			<?= Svg::square('aboutme') ?>
-			<?= Svg::square('behance') ?>
-			<?= Svg::square('facebook') ?>
-			<?= Svg::square('github') ?>
-			<?= Svg::square('googleplus') ?>
-			<?= Svg::square('linkedin') ?>
-			<?= Svg::square('nodejs') ?>
-			<?= Svg::square('twitter') ?>
+			<?php
+            foreach (Svg::all() as $name) {
+                if (Svg::exists($name, 'square')) {
+                    echo Svg::square($name);
+                }
+            }
+            ?>
 		</div>
 
 		<div>
-			<?= Svg::square('aboutme', 'is-reversed') ?>
-			<?= Svg::square('behance', 'is-reversed') ?>
-			<?= Svg::square('facebook', 'is-reversed') ?>
-			<?= Svg::square('github', 'is-reversed') ?>
-			<?= Svg::square('googleplus', 'is-reversed') ?>
-			<?= Svg::square('linkedin', 'is-reversed') ?>
-			<?= Svg::square('nodejs', 'is-reversed') ?>
-			<?= Svg::square('twitter', 'is-reversed') ?>
+			<?php
+            foreach (Svg::all() as $name) {
+                if (Svg::exists($name, 'square')) {
+                    echo Svg::square($name, 'is-reversed');
+                }
+            }
+            ?>
 		</div>
 
 		<div>
-			<?= Svg::logo('aboutme') ?>
-			<?= Svg::logo('behance') ?>
-			<?= Svg::logo('linkedin') ?>
-			<?= Svg::logo('nodejs') ?>
+			<?php
+            foreach (Svg::all() as $name) {
+                if (Svg::exists($name, 'logo')) {
+                    echo Svg::logo($name);
+                }
+            }
+            ?>
 		</div>
 
 		<div>
-			<?= Svg::logo('aboutme', 'is-reversed') ?>
-			<?= Svg::logo('behance', 'is-reversed') ?>
-			<?= Svg::logo('linkedin', 'is-reversed') ?>
-			<?= Svg::logo('nodejs', 'is-reversed') ?>
+			<?php
+            foreach (Svg::all() as $name) {
+                if (Svg::exists($name, 'logo')) {
+                    echo Svg::logo($name, 'is-reversed');
+                }
+            }
+            ?>
 		</div>
 	</body>
 </html>
