@@ -1,0 +1,4 @@
+/src          export-ignore
+/package.json export-ignore
+/gulpfile.js  export-ignore
+/.*           export-ignore

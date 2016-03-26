@@ -17,8 +17,6 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-stylecow": "^3.0.1",
     "gulp-svgmin": "^1.2.0"
   }
 }

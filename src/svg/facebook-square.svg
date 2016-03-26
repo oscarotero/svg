@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-square</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logos" transform="translate(-100.000000, -96.000000)">
+            <g id="facebook-square" transform="translate(100.000000, 96.000000)">
+                <rect id="Rectangle-2" fill="#3B5999" x="0" y="0" width="24" height="24" rx="2"></rect>
+                <path d="M16.865,24 L16.865,14.706 L19.985,14.706 L20.452,11.084 L16.865,11.084 L16.865,8.771 C16.865,7.722 17.156,7.008 18.66,7.008 L20.578,7.007 L20.578,3.767 C20.246,3.723 19.108,3.624 17.783,3.624 C15.018,3.624 13.124,5.312 13.124,8.412 L13.124,11.083 L9.997,11.083 L9.997,14.705 L13.125,14.705 L13.125,24 L16.865,24 Z" id="logo" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
