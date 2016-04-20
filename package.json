@@ -1,7 +1,7 @@
 {
   "name": "svg",
   "version": "1.0.1",
-  "description": "Collection of well formed svg",
+  "description": "Collection of svg logos with css classes",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oscarotero/svg.git"

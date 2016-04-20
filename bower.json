@@ -1,11 +1,10 @@
 {
   "name": "svg",
-  "version": "1.0.0",
   "homepage": "https://github.com/oscarotero/svg",
   "authors": [
     "oscarotero <oom@oscarotero.com>"
   ],
-  "description": "Collection of svg logos and icons",
+  "description": "Collection of svg logos with css classes",
   "main": "",
   "moduleType": [
     "globals"
