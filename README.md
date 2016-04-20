@@ -1,28 +1,12 @@
 # svg
 
-Collection of well formed svg, styled with css
+Collection of well formed svg, with classes to change the colors with css.
 
-## Naming convention
+## Css classes
 
-### Base names:
-
-* `square.svg` Square version (24x24)
-* `logo.svg` Normal version (24px height)
-
-### Name suffixes:
-
-* `*-large` Large version
-
-### Css classes
-
-* `svg-*` Base class
-* `is-large` Large version
-* `is-square` Square version
-* `is-reversed` Reverse version
-* `is-color1` Main color
-* `is-color2` Secondary color
-* `is-black` Black color (or equivalent)
-* `is-white` White color (or equivalent)
+* `is-color` The main color
+* `is-black` Black color
+* `is-white` White color
 
 ## Usage
 
@@ -30,13 +14,16 @@ With php:
 
 ```html
 <styles>
-	<?= Svg::css() ?>
+    /* Change the color to gray */
+	svg .is-color {
+        fill: #999;
+    }
 </styles>
 
 <p>
 	Follow me on twitter:
 	<a href="https://twitter.com/misteroom">
-		<?= Svg::square('twitter') ?>
+        <?= file_get_contents('svg/dist/twitter-square.svg'); ?>
 	</a>
 </p>
 ```

@@ -1,6 +1,6 @@
 {
   "name": "svg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of well formed svg",
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-replace": "^0.5.4",
     "gulp-svgmin": "^1.2.0"
   }
 }

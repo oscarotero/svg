@@ -2,3 +2,4 @@
 /package.json export-ignore
 /gulpfile.js  export-ignore
 /.*           export-ignore
+/index.html   export-ignore

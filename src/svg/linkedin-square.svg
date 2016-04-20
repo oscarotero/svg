@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
     <title>linkedin-square</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <g id="svg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="logos" transform="translate(-100.000000, -168.000000)">
-            <g id="linkedin-square" transform="translate(100.000000, 168.000000)">
-                <rect id="Rectangle-3" fill="#0077B5" x="0" y="0" width="24" height="24" rx="2"></rect>
-                <g id="logo" transform="translate(3.000000, 3.000000)" fill="#FFFFFF">
-                    <path d="M0.557,17.45 L4.12,17.45 L4.12,5.997 L0.557,5.997 L0.557,17.45 Z" id="Fill-14"></path>
+            <g id="LinkedIn" transform="translate(100.000000, 168.000000)">
+                <g id="is-color" fill="#0077B5">
+                    <rect id="Rectangle-3" x="0" y="0" width="24" height="24" rx="2"></rect>
+                </g>
+                <g id="is-white" transform="translate(3.000000, 3.000000)" fill="#FFFFFF">
+                    <polygon id="Fill-14" points="0.557 17.45 4.12 17.45 4.12 5.997 0.557 5.997"></polygon>
                     <path d="M2.339,0.304 C3.478,0.304 4.402,1.229 4.402,2.368 C4.402,3.508 3.478,4.432 2.339,4.432 C1.196,4.432 0.274,3.507 0.274,2.368 C0.273,1.229 1.195,0.304 2.339,0.304" id="Fill-15"></path>
                     <path d="M6.352,5.997 L9.764,5.997 L9.764,7.563 L9.813,7.563 C10.288,6.663 11.45,5.713 13.181,5.713 C16.785,5.713 17.451,8.084 17.451,11.169 L17.451,17.45 L13.892,17.45 L13.892,11.88 C13.892,10.552 13.869,8.843 12.042,8.843 C10.19,8.843 9.907,10.291 9.907,11.785 L9.907,17.45 L6.352,17.45 L6.352,5.997 Z" id="Fill-16"></path>
                 </g>
